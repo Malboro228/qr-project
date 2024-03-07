@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="sttyy.css">
+</head>
+<body>
+    <h1>Zaloguj się</h1>
+    <form action="process_login.php" method="POST">
+        <label for="login_username">Nazwa użytkownika:</label><br>
+        <input type="text" id="login_username" name="login_username" required><br>
+        <label for="login_password">Hasło:</label><br>
+        <input type="password" id="login_password" name="login_password" required><br><br>
+        <input type="submit" value="Zaloguj się">
+    </form>
+    
+</body>
+</html>
